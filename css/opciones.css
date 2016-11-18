@@ -1,0 +1,78 @@
+/* diseño pestañas de tabla*/
+ul.tabs {
+    width: 100%;
+	height: 50px;
+    padding: 0px 10px;
+    display: flex;
+    background: #e0e0e0;
+    outline: 1px solid #E0E0E0;
+    margin-bottom: 0px;
+}
+ul.tabs li {
+    list-style: none;
+    width: 50px;
+	height: 50px;
+	overflow: hidden;
+    margin-right: 3px;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+ul.tabs li a img {
+	display: block;
+    width: 70%;
+    margin: 7px auto ;
+    border-radius: 50%;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+	background: #fff;
+	border-bottom: 1px solid #fff; 
+}
+/* fin diseño pestañas de tabla*/
+
+
+/* diseño contenido de tabla*/
+
+.tab_container {
+	border: 1px solid #E0E0E0;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; 
+    width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding:20px;
+	font-size: 1.2em;
+    text-align: center;
+}
+/* fin diseño contenido de tabla*/
+
+
+
+/*---------------------- diseño elementos de mensaje*/
+div.tab_content_mensaje{
+    text-align: center;
+}
+textarea{
+    padding: 8px;
+    margin-bottom: 10px;
+}
+input#tab_content_enviar{
+    display: block;
+    padding: 7px 86px;
+}
+#tab1 h5{
+    font-size: 0.8em;
+    letter-spacing: -0.04em;
+    margin-top: 0px;
+    color: #47484B;
+}
+
+/* -------------------------------fin diseño elementos de mensaje*/
